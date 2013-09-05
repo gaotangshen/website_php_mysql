@@ -1,0 +1,78 @@
+.content-wrapper {
+	width: 100%;
+	background: url(../images/content-wrapper-bg.png) top left repeat-x;
+	min-height: 500px;
+}
+.content-wrapper .content {
+	width: 750px;
+	margin: 0 auto;
+	padding: 0 0 25px 0;
+	overflow: hidden;
+}
+.homepage-wrapper {
+	padding: 24px 0 0 0;
+}
+
+.homepage-slider {
+	width: 750px;
+	position: relative;
+	overflow: hidden;
+}
+
+.homepage-slider .navigation {
+	padding: 16px 0;
+	margin: -9px 0 5px 350px;
+	overflow: hidden;
+}
+
+.homepage-slider .navigation a {
+	margin: 0 10px 0 0;
+	width: 10px;
+	height: 10px;
+	background: url(../images/ico-bullet-8.png) 0 0 no-repeat;
+	display: block;
+	float: left;
+}
+.homepage-slider .navigation a:hover {
+	background-position: 0 -10px;
+}
+
+.homepage-slider .navigation .active {
+	background-position: 0 -10px;
+}
+
+.homepage-slider .btn-previous {
+	margin-left:-375px;
+	width: 375px;
+	height: 500px;
+	text-indent: 5000px;
+	position: absolute;
+	z-index: 2;
+}
+
+.homepage-slider .btn-previous:hover {
+	background: url(../images/homepage-slider-btn-previous-bg.png) center left no-repeat;
+}
+
+.homepage-slider .btn-next {
+	margin: 0 0 0 0px;
+	width: 375px;
+	height: 500px;
+	text-indent: 5000px;
+	position: absolute;
+	z-index: 2;
+}
+.homepage-slider .btn-next:hover {
+	background: url(../images/homepage-slider-btn-next-bg.png) center right no-repeat;
+}
+.homepage-slider-item {
+	width: 750px;
+	height: 500px;
+	float: left;
+}
+.homepage-slider-image-shadow {
+	width: 750px;
+	height: 9px;
+	background: url(../images/image-shadow-5.png) center 1px no-repeat;
+}
+
